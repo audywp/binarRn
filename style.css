@@ -1,0 +1,94 @@
+li {
+    list-style:none ;
+}
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    font-family:Verdana;
+    background-image:url(https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+}
+header{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top:0;
+}
+.header-kiri {
+    float: left;
+}
+
+
+.kepala {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top:5px;
+    padding-left: 10px;
+    color:red;
+}
+.header-kanan li {
+    float: right;
+    font-size: 20px;
+    padding: 10px 10px;
+    color:white;
+}
+.gbrlogo{
+    float:left;
+    width: 50px;
+    height: 50px;
+    
+}
+.header-kanan a {
+    color: white;
+    display: block;
+}
+.isi {
+    padding: 180px 0 100px 0;
+    text-align: center;
+}
+.isi h1 {
+    color:white;
+}
+.tombol{
+        border-bottom: 1px transparent transparent;
+        padding-bottom: 80px;
+        text-align: center;
+        color:white;
+}
+.btn {
+    padding: 12px 24px;
+    color: red;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+.btn:hover {
+    opacity: 1;
+  }
+  footer img {
+    width: 50px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 110px;
+  }
